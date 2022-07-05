@@ -1,0 +1,25 @@
+/* selector de tipo etiqueta */
+/* div {
+    background-color: thistle;
+    display: block;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+} */
+/* selector de tipo etiqueta */
+
+/* selector de tipo clase */
+
+.blog{
+    background-color: red;
+    display: inline-block;
+}
+
+.content{
+    background-color: aqua;
+    font-size: 20px;
+}
+
+/* selector de tipo clase */

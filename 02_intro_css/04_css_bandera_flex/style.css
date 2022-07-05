@@ -1,0 +1,71 @@
+body{
+    width:100vw;
+    display:flex;
+    padding:0;
+    margin:0;
+    height: 100vh;
+}
+
+.izquierdoSuperior , .izquierdoInferior , .derechaSuperior, .derechaInferior{
+    background-color: white;
+}
+
+.cuadroIzquierdo, .cuadroDerecha {
+    background-color: blue;
+}
+
+.cuadroIzquierdo {
+    display:flex;
+    width: 25%;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.izquierdoSuperior  {
+    width:80%;
+    height: 40%;
+}
+
+.izquierdoInferior{
+    width:80%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+.rojoIzquierda {
+    background-color: red;
+    width: 80%;
+    height: 80%;
+}
+
+.cuadroDerecha {
+    width: 75%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: space-between;
+
+}
+.derechaSuperior, .derechaInferior {
+    display: flex;
+    justify-content: flex-end;
+  
+}
+.rojoDerecha {
+    background-color: red;
+    width:90%;
+    height:80%;
+}
+.derechaSuperior {
+    width: 90%;
+    height: 40%;  
+}
+
+.derechaInferior {
+    width: 90%;
+    height: 40%;  
+    align-items: flex-end;
+}

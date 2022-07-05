@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Responsive</title>
+    <style>
+        figure{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        p{
+            font-size: 20px;
+
+        }
+        span{
+            font-size: 0.75em;
+        }
+        h3{
+            font-size: 1rem;
+        }
+        @media screen and (min-width: 794px){
+            body{
+                background-color: blue;
+                margin: 25px;
+            }
+            figure{
+                float:left;
+                width: 45%;
+                margin: 4%;
+            }
+
+        }
+        @media screen and (min-width:1020px){
+            body{
+                background-color: brown;
+                margin: 25px;
+            }
+            figure{
+                width: 30%;
+                margin: 2.5%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Media Query Demo</h1>
+    <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore ab quis ut cupiditate perspiciatis officia, corporis rem rerum tempore!</span></p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, exercitationem?</p>
+    <figure>
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/T2GWFUZQQZDVBMWKRAJRACT72M.jpg" alt="Placeholder kitteh">
+        <figcaption>Pretty Cat</figcaption>
+    </figure>
+    <figure>
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/T2GWFUZQQZDVBMWKRAJRACT72M.jpg" alt="Placeholder kitteh">
+        <figcaption>Pretty Cat</figcaption>
+    </figure>
+    <figure>
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/T2GWFUZQQZDVBMWKRAJRACT72M.jpg" alt="Placeholder kitteh">
+        <figcaption>Pretty Cat</figcaption>
+    </figure>
+    <figure>
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/T2GWFUZQQZDVBMWKRAJRACT72M.jpg" alt="Placeholder kitteh">
+        <figcaption>Pretty Cat</figcaption>
+    </figure>
+    <figure>
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/T2GWFUZQQZDVBMWKRAJRACT72M.jpg" alt="Placeholder kitteh">
+        <figcaption>Pretty Cat</figcaption>
+    </figure>
+    <figure>
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/T2GWFUZQQZDVBMWKRAJRACT72M.jpg" alt="Placeholder kitteh">
+        <figcaption>Pretty Cat</figcaption>
+    </figure>
+</body>
+</html>

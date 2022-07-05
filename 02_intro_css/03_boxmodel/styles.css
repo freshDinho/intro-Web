@@ -1,0 +1,27 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.tarjeta{
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 3px 3px black;
+}
+
+img{
+    width: 200px;
+}
+
+.info{
+    display: inline-block;
+    width: 300px;
+}
+
+.parrafo p{
+    /* display: inline; */
+    display:block;
+    justify-content: center;
+}
